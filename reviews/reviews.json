@@ -1,0 +1,182 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Artificial Intelligence",
+      "category": "Software",
+      "description": "Dive into the future of technology! Learn how to build intelligent systems that think, learn, and adapt like humans.",
+      "image": "images/ai-dna-gene-editing-technology-biotech-genetic-engineering_53876-143120.jpg",
+      "average_rating": 4.5,
+      "reviews": [
+        {"name": "User1", "rating": 5, "comment": "Awesome AI course!"},
+        {"name": "User2", "rating": 4, "comment": "Very informative."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Civil Engineering",
+      "category": "Engineering",
+      "description": "Build the future! Explore the fundamentals of civil engineering and learn how to design and develop real-world infrastructure.",
+      "image": "images/depertment-2.png",
+      "average_rating": 4.2,
+      "reviews": [
+        {"name": "User3", "rating": 4, "comment": "Great fundamentals."},
+        {"name": "User4", "rating": 4, "comment": "Well explained topics."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Business Studies",
+      "category": "Business",
+      "description": "Understand how businesses work! Learn the core principles of management, marketing, finance, and strategy.",
+      "image": "images/depertment-3.png",
+      "average_rating": 4.0,
+      "reviews": [
+        {"name": "User5", "rating": 4, "comment": "Useful for beginners."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Front-end",
+      "category": "Software",
+      "description": "Bring websites to life! Learn how to create stunning, responsive user interfaces using HTML, CSS, and JavaScript.",
+      "image": "images/programming-background-collage_23-2149901789.webp",
+      "average_rating": 4.8,
+      "reviews": [
+        {"name": "User6", "rating": 5, "comment": "Loved the practical examples."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Back-end",
+      "category": "Software",
+      "description": "Master the server-side! Learn how to build powerful, scalable back-end systems with real-world projects.",
+      "image": "images/download (3).jpeg",
+      "average_rating": 4.6,
+      "reviews": [
+        {"name": "User7", "rating": 5, "comment": "Excellent course."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Fullstack",
+      "category": "Software",
+      "description": "Become a complete developer! Learn to build dynamic web applications from front-end to back-end with hands-on projects.",
+      "image": "images/wp10167056-full-stack-wallpapers.jpg",
+      "average_rating": 4.7,
+      "reviews": [
+        {"name": "User8", "rating": 5, "comment": "Comprehensive and practical."}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Machine Learning",
+      "category": "Software",
+      "description": "Unlock the power of data! Learn how machines learn and build intelligent models that make predictions and decisions.",
+      "image": "images/depertment-1.png",
+      "average_rating": 4.4,
+      "reviews": [
+        {"name": "User9", "rating": 4, "comment": "Challenging but rewarding."}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Cyber Security",
+      "category": "Software",
+      "description": "Protect the digital world! Learn the fundamentals of cyber security and how to defend against real-world threats.",
+      "image": "images/images (1).jpeg",
+      "average_rating": 4.3,
+      "reviews": [
+        {"name": "User10", "rating": 4, "comment": "Very practical and useful."}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Business Management",
+      "category": "Business",
+      "description": "Lead with confidence! Learn essential management skills to run teams, projects, and businesses effectively.",
+      "image": "images/images (3).jpeg",
+      "average_rating": 4.1,
+      "reviews": [
+        {"name": "User11", "rating": 4, "comment": "Good management tips."}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "English Language",
+      "category": "Languages",
+      "description": "Speak English with confidence! Improve your speaking, listening, and writing skills with clear and easy steps.",
+      "image": "images/istockphoto-953264308-612x612.webp",
+      "average_rating": 4.6,
+      "reviews": [
+        {"name": "User12", "rating": 5, "comment": "Helped me improve a lot."}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Italian Language",
+      "category": "Languages",
+      "description": "Let's dive into the Italian vibe! Learn Italian from scratch with a fun and simple approach that builds your confidence.",
+      "image": "images/download.jpeg",
+      "average_rating": 4.4,
+      "reviews": [
+        {"name": "User13", "rating": 4, "comment": "Fun and easy to follow."}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Power Engineering",
+      "category": "Engineering",
+      "description": "Power the world! Learn the principles of electrical power generation, transmission, and distribution to keep industries running.",
+      "image": "images/download (5).jpeg",
+      "average_rating": 4.3,
+      "reviews": [
+        {"name": "User14", "rating": 4, "comment": "Very detailed."}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Chemical Engineering",
+      "category": "Engineering",
+      "description": "Transform ideas into innovations! Learn how to design and optimize processes that convert raw materials into valuable products.",
+      "image": "images/download (4).jpeg",
+      "average_rating": 4.2,
+      "reviews": [
+        {"name": "User15", "rating": 4, "comment": "Good course content."}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "German Language",
+      "category": "Languages",
+      "description": "Deutsch isn't hard! Begin your German journey with easy explanations and practical exercises to help you improve fast.",
+      "image": "images/download (2).jpeg",
+      "average_rating": 4.5,
+      "reviews": [
+        {"name": "User16", "rating": 5, "comment": "Great teaching method."}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Digital Marketing",
+      "category": "Business",
+      "description": "Unlock the world of online business! Learn the latest strategies in SEO, social media, and digital advertising to boost brand presence.",
+      "image": "images/images (2).jpeg",
+      "average_rating": 4.4,
+      "reviews": [
+        {"name": "User17", "rating": 4, "comment": "Very practical."}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Spanish Language",
+      "category": "Languages",
+      "description": "¡Hola! Ready to speak Spanish? Start learning the language spoken by millions around the world — the fun way!",
+      "image": "images/download (1).jpeg",
+      "average_rating": 4.6,
+      "reviews": [
+        {"name": "User18", "rating": 5, "comment": "Fun and easy course."}
+      ]
+    }
+  ]
+}

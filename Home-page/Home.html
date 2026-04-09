@@ -1,0 +1,194 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Eduland-online courses</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="Home.js" ></script>
+        <link rel="icon" href="images/favicon.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
+    </head>
+    <body>
+        <!------------------------ NAV BAR ------------------------>
+                    <!------------- Base ------------->
+        <div class="Nav">
+            <div class="Nav-links">
+                <img class="logo" src="images/logo.svg" alt="logo">
+                <a class="nav" href="../Home-page/Home.html">Home</a>
+                <a class="nav" href="../Courses-page/Courses.html">Courses</a>
+                <a class="nav" href="../ContactUs-page/ContactUs.html">Contact Us</a>
+                <a class="nav" href="../Aboutus-page/AboutUs.html">About Us</a>
+            </div>
+            <div class="btnic">
+                <div class="button">
+                    <button onclick="goto()" class="btn-sign">SIGN IN</button>
+                </div>
+                <div>
+                    <span class="menu-icon" onclick="openSidebar()"><i id="menu" class="fa-solid fa-bars"></i></span>
+                </div>
+            </div>
+                    <!------------- Secondary ------------->
+            <div id="mySidebar" class="sidebar">
+                <a onclick="closeSidebar()">✖ Cancel</a>
+                <a href="../Home-page/Home.html">Home</a>
+                <a href="../Courses-page/Courses.html">Courses</a>
+                <a href="../ContactUs-page/ContactUs.html">Contact Us</a>
+                <a href="../Aboutus-page/AboutUs.html">About Us</a>
+              </div>
+        </div>
+    <!--Hero section-->
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Start <br> Your Future <br> Education</h1>
+            <p>Credibly redefine distinctive total linkage vis-a-vis <br> multifunction data. Phosphorescently impact goal- <br>oriented strategic</p>
+            <a href="#about-section">
+            <button class="btn-dis">Discover More</button>
+            </a>
+        </div>
+        <div class="hero-img">
+            <img src="images/hero-banner.png" alt="hero-img">
+        </div>
+    </div>
+    <!-- About Section -->
+<section id="about-section">
+    <div class="container">
+      
+      <div class="about-image">
+        <img src="images/about-banner.png" alt="About image">
+      </div>
+  
+      <div class="about-text">
+        <h1>
+          We Help to Create <br>
+          Possibility & Success in <br>
+          Your Career!
+        </h1>
+        <p>
+          Continually administrate process-centric human capital rather than bleeding-edge methodologies.<br>
+          Distinctively supply accurate methods of empowerment before.
+        </p>
+        <a href="#courses-section">
+        <button class="btn">Get Started Today</button>
+        </a>
+      </div>
+  
+    </div>
+  </section>
+  <!--Departement section-->
+  <section id="courses-section">
+    <div class="courses">
+      <div class="courses-text">
+        <h1>We Have Most of Popular <br> Departments</h1>
+      </div>
+      <div class="courses-cards">
+        <div class="c-card">
+          <img src="images/depertment-1.png" alt="depertment-1">
+          <div class="c-info">
+          <h1>Artificial Intelligence</h1>
+          <p>Dive into the future of technology! Learn how to build intelligent systems that think, learn, and adapt like humans.</p>
+          </div>
+          <h5><a class="p9" href="../reviews/index.html">Learn More</a></h5>
+        </div>
+        <div class="c-card">
+          <img src="images/depertment-2.png" alt="depertment-2">
+          <div class="c-info">
+          <h1>Civil Engineering</h1>
+          <p>Build the future! Explore the fundamentals of civil engineering and learn how to design and develop real-world infrastructure.</p>
+          </div>
+          <h5><a class="p9" href="../reviews/index.html">Learn More</a></h5>
+        </div>
+        <div class="c-card">
+          <img src="images/depertment-3.png" alt="depertment-3">
+          <div class="c-info">
+          <h1>Business Studies</h1>
+          <p>Understand how businesses work! Learn the core principles of management, marketing, finance, and strategy.</p>
+          </div>
+          <h5><a class="p9" href="../reviews/index.html">Learn More</a></h5>
+        </div>
+
+      </div>
+      <a href="../Courses-page/Courses.html">
+      <button class="btn-dep">View All Departments</button>
+      </a>
+    </div>
+
+  </section>
+  <!--teachers section-->
+  <section class="teachers">
+    <div class="t-info">
+      <h1>Introduce with Our <br>Famous Teacher</h1>
+      <button class="btn-t">View All Teachers</button>
+    </div>
+    <div class="t-cards">
+      <div class="t-card">
+        <img src="images/instructor-1.png" alt="instructor-1">
+        <div class="c-info">
+          <h1>Ahmed Ali</h1>
+          <p>Assistant Director</p>
+        </div>
+        </div>
+        <div class="t-card">
+          <img src="images/instructor-2.png" alt="instructor-2">
+          <div class="c-info">
+            <h1>ola Ahmed</h1>
+            <p>Assistant Director</p>
+          </div>
+          </div>
+          <div class="t-card">
+            <img src="images/instructor-3.png" alt="instructor-3">
+            <div class="c-info">
+              <h1>Ali Ahmed</h1>
+              <p>Assistant Director</p>
+            </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!--footer-->
+  <div class="footer">
+    <div class="f-top">
+      <img class="subicon" src="images/logo.svg" alt="logo">
+      <p>Professionally scale cross functional human capitalbr<br>and extensive technology.</p> 
+    </div>
+    <div class="f-bottom">
+
+    <div class="sec-1">
+      <h3>services</h3>
+      <p>Design</p>
+      <p>Development</p>
+      <p>Marketing</p>
+      <p>Content Writing</p>
+    </div>
+    <div class="sec-2">
+      <h3>Company</h3>
+      <p>About</p>
+      <p>Terms</p>
+      <p>Privacy Policy</p>
+      <p>Careers</p>
+    </div>
+    <div class="sec-3">
+      <h3>Job Info</h3>
+      <p>Select</p>
+      <p>Services</p>
+      <p>Payment</p>
+    </div>
+    <div class="sec-4">
+      <h3>Contact</h3>
+      <p>call : 546 3876 387</p>
+      <p>Email : examble@gmail.com</p>
+      <p>Address : cairo,Egypt</p>
+    </div>
+    </div>
+    <hr>
+    <p class="pr">© 2025 code. All right reserved</p>
+  </div>
+    </body>
+    
+</html>

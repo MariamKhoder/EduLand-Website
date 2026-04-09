@@ -1,0 +1,535 @@
+
+html{
+  scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+}
+
+  /*................. Nav bar .................*/
+.Nav {
+  z-index: 100;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 10%;
+  background-color:#fff9f0;
+  }
+
+.logo{
+  width: 19vmin;
+  }
+
+.nav {
+  font-size: 17px;
+  transition: 0.4s;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  }
+
+.nav:hover {
+  color: #f39c12;
+  }
+
+.Nav-links {
+  display: flex;
+  align-items: center;
+  gap: 5vmin;
+  }
+
+.btnic{
+  display: flex;
+  align-items: center;
+  gap: 2vmin;;
+  }
+
+.btn-sign {
+    background: #000;
+    color: #fff;
+    padding: 1.5vmin 3vmin;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-sign:hover {
+    background-color: #e68a00;
+}
+
+/* Secondary Navbar*/
+#menu{
+  font-size: 5vmin;
+  color: #fbc01e;
+  display: none;
+  }
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff9f0;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  }
+
+.sidebar a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  transition: 0.2s;
+  }
+
+.sidebar a:hover {
+  background-color: #f1c686;
+  border: #f7b500 solid 1.2vrim;
+  }
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+    background-color: #fff9f0;
+}
+
+.hero-content {
+    max-width: 550px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.btn-dis {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 14px 26px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+    height:58px;
+    box-shadow: 0 4px 10px #f7bb63;
+}
+
+.btn-dis:hover {
+    background-color: #e68a00;
+}
+.hero-img img {
+    margin-top: 60px;
+    max-width: 600px;
+}
+
+  #about-section {
+    padding: 80px 60px;
+    background-color: white;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+  }
+  
+
+  .about-image img {
+    max-width: 100%;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1E1E1E;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .btn {
+    background-color: #f7b500;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px #f7bb63;;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #d99e00;
+  }
+  
+#courses-section{
+  background-color:#fff9f0;
+  padding: 60px 20px;
+
+}
+.courses-cards{
+  display:flex ;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+.c-card{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.c-card h1{
+  font-size: 24px;
+    font-weight: bold;
+    color: #1E1E1E;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: left;
+}
+.c-card p{
+  font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: left;
+}
+.p9{
+    color:#f7b500 ;
+    cursor: pointer;
+}
+.p9:hover{
+  color:#d99e00;
+}
+
+.btn-dep{
+  background-color:#ff9900;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px #f7bb63;;
+    transition: 0.3s ease;
+    display: block;
+    margin: 40px auto 0;
+    height: 70px;
+}
+.btn-dep:hover{
+  background-color:#d99e00;
+}
+.courses-text h1{
+  font-size: 36px;
+    font-weight: bold;
+    color: #1E1E1E;
+    line-height: 1.4;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+.c-card img{
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+.c-card img:hover{
+  transform: scale(0.95);
+}
+
+.teachers{
+  background-color:#fff;
+  padding: 60px 20px;
+}
+.t-info{
+  display: flex;
+  align-items: center;
+  padding: 30px 150px;
+  gap: 570px;
+}
+.t-info h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1E1E1E;
+    line-height: 1.4;
+    margin: 0 auto 35px auto;
+    align-items: left;
+}
+.btn-t {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 14px 26px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+  height:70px;
+  box-shadow: 0 4px 8px #f7bb63;;
+}
+.btn-t:hover{
+background-color: #d99e00;
+}
+.t-cards{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+
+.c-info{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: larger;
+}
+.c-info p{
+  color: #555;
+  font-size: 15px;
+}
+.t-card img{
+  max-width: 360px;
+}
+.t-card:hover img {
+  transform: scale(1.08);
+}
+ .footer{
+  background-color: #000;
+  padding: 30px 150px;
+}
+.footer h3{
+  color: #fff;
+}
+.footer p{
+  color:#cfcccc;
+  font-size: 15px;
+  margin: 20px 0px;
+}
+.f-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.f-top{
+  margin-bottom: 50px;
+} 
+.f-top p{
+  margin:10px 0;
+}
+.pr{
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+   .footer,.hero-section, .t-info {
+        padding: 30px 80px;
+    }
+    .t-info {
+        gap: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer,.hero-section, .t-info {
+        padding: 30px 50px;
+    }
+    .hero-content h1 {
+        font-size: 48px;
+    }
+    
+    .hero-img img {
+        max-width: 450px;
+    }
+    
+    .t-info {
+        gap: 150px;
+    }
+    
+    .courses-cards {
+        flex-wrap: wrap;
+    }
+    
+    .c-card {
+        width: 45%;
+    }
+    
+    .t-cards {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    .t-card {
+        width: 45%;
+    }
+    
+    .t-card img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer,.hero-section, .t-info {
+        padding: 25px 30px;
+    }
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-content {
+        margin-bottom: 40px;
+    }
+    
+    .hero-img img {
+        max-width: 100%;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+    
+    .about-text {
+        text-align: center;
+    }
+    
+    .t-info {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .btn-t {
+        margin-top: 0;
+    }
+    
+    .c-card {
+        width: 100%;
+    }
+    
+    .t-card {
+        width: 100%;
+    }
+    
+    .f-bottom {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    .sec-1, .sec-2, .sec-3, .sec-4 {
+        min-width: 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 36px;
+    }
+    
+     .btn-dis, .btn, .btn-dep, .btn-t {
+        width: 100%;
+    }
+    
+    .courses-text h1, .t-info h1 {
+        font-size: 28px;
+    }
+    
+    .sec-1, .sec-2, .sec-3, .sec-4 {
+        min-width: 100%;
+        text-align: center;
+    }
+    
+    .f-bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    }
+
+  h2 {
+    font-size: 33;
+    }
+
+  #menu{
+    display: block;
+    cursor: pointer;
+    
+    }
+
+  .btnic{
+    gap: 2vmin;
+    }
+  }
+/* The-End of Home page by Mariam Reda */
+
+

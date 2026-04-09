@@ -1,0 +1,246 @@
+<!Doctype html>
+<html>
+    <head>
+        <!-- icon --><link rel="shortcut icon" href="images/favicon.svg">
+        <!-- title --><title>Eduland-online courses</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+                    <!------------- import css js files ------------->
+        <script src="courses.js"></script>
+        <link rel="stylesheet" href="Style.css">
+        <!-- import icons file -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="icon" href="D:\My_Web_Project\Eductional web site\images\favicon.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="Courses-Page">
+        <!------------------------ NAV BAR ------------------------>
+                    <!------------- Base ------------->
+        <div class="Nav">
+            <div class="Nav-links">
+                <img class="logo" src="images/logo.svg" alt="logo">
+                <a class="nav" href="../Home-page/Home.html">Home</a>
+                <a class="nav" href="../Courses-page/Courses.html">Courses</a>
+                <a class="nav" href="../ContactUs-page/ContactUs.html">Contact Us</a>
+                <a class="nav" href="../Aboutus-page/AboutUs.html">About Us</a>
+            </div>
+            <div class="btnic">
+                <div class="button">
+                    <button onclick="goto()" class="btn-sign">SIGN IN</button>
+                </div>
+                <div>
+                    <span class="menu-icon" onclick="openSidebar()"><i id="menu" class="fa-solid fa-bars"></i></span>
+                </div>
+            </div>
+                    <!------------- Secondary ------------->
+            <div id="mySidebar" class="sidebar">
+                <a onclick="closeSidebar()">✖ Cancel</a>
+                <a href="../Home-page/Home.html">Home</a>
+                <a href="../Courses-page/Courses.html">Courses</a>
+                <a href="../ContactUs-page/ContactUs.html">Contact Us</a>
+                <a href="../Aboutus-page/AboutUs.html">About Us</a>
+              </div>
+        </div>
+        <!-------------------------- Caption -------------------------->
+        <div class="hero-section">
+            <div class="hero-content">
+                <p class="b1">Discover Courses Designed to Match Your Goals and Dreams</p>
+                <p class="b2">  In a fast-paced and ever-changing world, 
+                <br>skills are the most valuable currency and through our platform,
+                <br> we give you the opportunity to stay ahead of the curve. 
+                <br> oriented strategic</p>
+            </div>
+            <div class="categories">
+                    <a class="cat" data-filter="all">All</a>
+                    <a class="cat" data-filter="Engineering">Engineering</a>
+                    <a class="cat" data-filter="Business">Business</a>
+                    <a class="cat" data-filter="Software">Software</a>
+                    <a class="cat" data-filter="Languages">Languages</a>
+            </div>
+        </div>
+        <!-------------------------- Cards -------------------------->
+        <div class="Courses">
+            <div class="courses-cards">
+                <div class="c-card" data-category="Software">
+                    <img class="c-img" src="images/ai-dna-gene-editing-technology-biotech-genetic-engineering_53876-143120.jpg" alt="depertment-1">
+                    <div class="c-info">
+                        <h1>Artificial Intelligence</h1>
+                        <p>Dive into the future of technology! Learn how to build intelligent systems that think, learn, and adapt like humans.</p>
+                    </div>
+                    <p><a  class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Engineering">
+                    <img class="c-img" src="images/depertment-2.png" alt="depertment-2">
+                    <div class="c-info">
+                    <h1>Civil Engineering</h1>
+                    <p>Build the future! Explore the fundamentals of civil engineering and learn how to design and develop real-world infrastructure.</p>
+                    </div>
+                    <p><a  class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Business">
+                    <img class="c-img" src="images/depertment-3.png" alt="depertment-3">
+                    <div class="c-info">
+                    <h1>Business Studies</h1>
+                    <p>Understand how businesses work! Learn the core principles of management, marketing, finance, and strategy.</p>
+                    </div>
+                    <p><a  class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                
+                <div class="c-card" data-category="Software">
+                    <img class="c-img" src="images/programming-background-collage_23-2149901789.webp" alt="depertment-1">
+                    <div class="c-info">
+                    <h1>Front-end</h1>
+                    <p>Bring websites to life! Learn how to create stunning, responsive user interfaces using HTML, CSS, and JavaScript.</p>
+                    </div>
+                    <p><a  class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Software">
+                    <img class="c-img" src="images/download (3).jpeg" alt="depertment-2">
+                    <div class="c-info">
+                    <h1>Back-end</h1>
+                    <p>Master the server-side! Learn how to build powerful, scalable back-end systems with real-world projects. </p>
+                    </div>
+                    <p><a  class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Software">
+                    <img class="c-img" src="images/wp10167056-full-stack-wallpapers.jpg" alt="depertment-3">
+                    <div class="c-info">
+                    <h1>Fullstack</h1>
+                    <p>Become a complete developer! Learn to build dynamic web applications from front-end to back-end with hands-on projects.</p>
+                    </div>
+                    <p><a class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Software">
+                    <img class="c-img" src="images/depertment-1.png" alt="depertment-2">
+                    <div class="c-info">
+                    <h1>Machine Lirning</h1>
+                    <p>Unlock the power of data! Learn how machines learn and build intelligent models that make predictions and decisions.</p>
+                    </div>
+                    <p><a  class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Software">
+                    <img class="c-img" src="images/images (1).jpeg" alt="depertment-3">
+                    <div class="c-info">
+                    <h1>Cyber Security</h1>
+                    <p>Protect the digital world! Learn the fundamentals of cyber security and how to defend against real-world threats. </p>
+                    </div>
+                    <p><a class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Business">
+                    <img class="c-img" src="images/images (3).jpeg" alt="depertment-3">
+                    <div class="c-info">
+                    <h1>Business Management</h1>
+                    <p>Lead with confidence! Learn essential management skills to run teams, projects, and businesses effectively.</p>
+                    </div>
+                    <p><a class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                
+                <div class="c-card" data-category="Languages">
+                    <img class="c-img" src="images/istockphoto-953264308-612x612.webp" alt="depertment-1">
+                    <div class="c-info">
+                    <h1>English Language</h1>
+                    <p>Speak English with confidence!
+                        Improve your speaking, listening, and writing skills with clear and easy steps.</p>
+                    </div>
+                    <p><a class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Languages">
+                    <img class="c-img" src="images/download.jpeg" alt="depertment-2">
+                    <div class="c-info">
+                    <h1>Italian Language</h1>
+                    <p>Let's dive into the Italian vibe!
+                        Learn Italian from scratch with a fun and simple approach that builds your confidence.</p>
+                    </div>
+                    <p><a class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Engineering">
+                    <img class="c-img" src="images/download (5).jpeg" alt="depertment-3">
+                    <div class="c-info">
+                    <h1>Power Engineering</h1>
+                    <p>Power Engineering
+                        "Power the world! Learn the principles of electrical power generation, transmission, and distribution to keep industries running</p>
+                    </div>
+                    <p><a class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Engineering">
+                    <img class="c-img" src="images/download (4).jpeg" alt="depertment-2">
+                    <div class="c-info">
+                    <h1>Chemical Engineering</h1>
+                    <p>Transform ideas into innovations! Learn how to design and optimize processes that convert raw materials into valuable products.</p>
+                    </div>
+                    <p><a class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Languages">
+                    <img class="c-img" src="images/download (2).jpeg" alt="depertment-3">
+                    <div class="c-info">
+                    <h1>German Language</h1>
+                    <p>Deutsch isn't hard! <br>
+                        Begin your German journey with easy explanations and practical exercises to help you improve fast.</p>
+                    </div>
+                    <p><a class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Business">
+                    <img class="c-img1" src="images/images (2).jpeg" alt="depertment-2">
+                    <div class="c-info">
+                    <h1>Digital Marketing</h1>
+                    <p>Unlock the world of online business! Learn the latest strategies in SEO, social media, and digital advertising to boost brand presence.</p>
+                    </div>
+                    <p><a class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+                <div class="c-card" data-category="Languages">
+                    <img class="c-img" src="images/download (1).jpeg" alt="depertment-3">
+                    <div class="c-info">
+                    <h1>Spanish Language</h1>
+                    <p>¡Hola! Ready to speak Spanish?<br>
+                        Start learning the language spoken by millions around the world — the fun way! </p>
+                    </div>
+                    <p><a class="p9" href="../reviews/index.html">Learn More</a></p>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <!-------------------------- Footer -------------------------->
+  <div class="footer">
+    <div class="f-top">
+      <img class="subicon" src="images/logo.svg" alt="logo">
+      <p>Professionally scale cross functional human capitalbr<br>and extensive technology.</p> 
+    </div>
+    <div class="f-bottom">
+
+    <div class="sec-1">
+      <h3>services</h3>
+      <p>Design</p>
+      <p>Development</p>
+      <p>Marketing</p>
+      <p>Content Writing</p>
+    </div>
+    <div class="sec-2">
+      <h3>Company</h3>
+      <p>About</p>
+      <p>Terms</p>
+      <p>Privacy Policy</p>
+      <p>Careers</p>
+    </div>
+    <div class="sec-3">
+      <h3>Job Info</h3>
+      <p>Select</p>
+      <p>Services</p>
+      <p>Payment</p>
+    </div>
+    <div class="sec-4">
+      <h3>Contact</h3>
+      <p>call : 546 3876 387</p>
+      <p>Email : examble@gmail.com</p>
+      <p>Address : cairo,Egypt</p>
+    </div>
+    </div>
+    <hr>
+    <p class="pr">© 2025 code. All right reserved</p>
+  </div>
+    </body>
+</html>

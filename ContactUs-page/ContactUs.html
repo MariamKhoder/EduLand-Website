@@ -1,0 +1,159 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="icon" href="../Home-page/images/favicon.svg">
+        <link rel="stylesheet" href="ContactUs.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
+    </head>
+    <body>
+        <!------------------------ NAV BAR ------------------------>
+                    <!------------- Base ------------->
+        <div class="Nav">
+            <div class="Nav-links">
+                <img class="logo" src="../ContactUs-page/logo.svg" alt="logo">
+                <a class="nav" href="../Home-page/Home.html">Home</a>
+                <a class="nav" href="../Courses-page/Courses.html">Courses</a>
+                <a class="nav" href="../ContactUs-page/ContactUs.html">Contact Us</a>
+                <a class="nav" href="../Aboutus-page/AboutUs.html">About Us</a>
+            </div>
+            <div class="btnic">
+                <div class="button">
+                    <button onclick="goto()" class="btn-sign">SIGN IN</button>
+                </div>
+                <div>
+                    <span class="menu-icon" onclick="openSidebar()"><i id="menu" class="fa-solid fa-bars"></i></span>
+                </div>
+            </div>
+                    <!------------- Secondary ------------->
+            <div id="mySidebar" class="sidebar">
+                <a onclick="closeSidebar()">✖ Cancel</a>
+                <a href="../Home-page/Home.html">Home</a>
+                <a href="../Courses-page/Courses.html">Courses</a>
+                <a href="../ContactUs-page/ContactUs.html">Contact Us</a>
+                <a href="../Aboutus-page/AboutUs.html">About Us</a>
+              </div>
+        </div>
+        <!--Contact body -->
+        <div class="container">
+            <span class="big-circle"></span>
+            <img src="imags/dots.png" class="square" alt="">
+
+            <div class="form">
+                <div class="contact-info">
+                <h3 class="title">Let's get in touch </h3>
+                <p class="text">
+                    We're here for you! Whether you have a question,
+                     suggestion, or need support,don’t hesitate to reach out —
+                      our team is always ready to respond as quickly as possible.</p>
+                <div class="info">
+                    <div class="information">
+                        <img src="imags/world.png" class="icon" alt="">
+                        <p>92 Cherry Drive Uniandale,NY 11553</p>
+                    </div>
+                    <div class="information">
+                        <img src="imags/email.png" class="icon" alt="">
+                        <p>lorem@ipsum.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="imags/phone-call.png" class="icon" alt="">
+                        <p>123-456-789</p>
+                    </div>
+                </div>
+
+                <div class="social_media">
+                    <p>Contact with us : </p>
+                    <div class="social-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>  
+                </div>
+                </div>
+
+                <div class="contact-form">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
+                    <form action="ContactUs.html">
+                        <h3 class="title">Contact Us</h3>
+                        <div class="input-container">
+                            <input type="text" name="name" class="input" /> 
+                            <label for="">Username</label>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" class="input" />
+                            <label for="">Email</label>
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="phone" class="input" />
+                            <label for="">Phone</label>
+                        </div>
+                        <div class="input-container textarea ">
+                            <textarea  name="message" class="input" ></textarea>
+                            <label for="">Message</label>
+                        </div>
+                        <input type="submit" value="Send" class="btn">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        
+        <script src="ContactUs.js"></script>
+
+        <!--footer-->
+        <div class="footer">
+    <div class="f-top">
+      <img class="subicon" src="../ContactUs-page/logo.svg" alt="logo">
+      <p>Professionally scale cross functional human capitalbr<br>and extensive technology.</p> 
+    </div>
+    <div class="f-bottom">
+    <div class="sec-1">
+      <h3>services</h3>
+      <p>Design</p>
+      <p>Development</p>
+      <p>Marketing</p>
+      <p>Content Writing</p>
+    </div>
+    <div class="sec-2">
+      <h3>Company</h3>
+      <p>About</p>
+      <p>Terms</p>
+      <p>Privacy Policy</p>
+      <p>Careers</p>
+    </div>
+    <div class="sec-3">
+      <h3>Job Info</h3>
+      <p>Select</p>
+      <p>Services</p>
+      <p>Payment</p>
+    </div>
+    <div class="sec-4">
+      <h3>Contact</h3>
+      <p>call : 546 3876 387</p>
+      <p>Email : examble@gmail.com</p>
+      <p>Address : cairo,Egypt</p>
+    </div>
+    </div>
+    <hr>
+    <p class="pr">© 2025 code. All right reserved</p>
+  </div>
+    </body>
+</html>
